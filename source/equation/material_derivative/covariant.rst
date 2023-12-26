@@ -60,6 +60,7 @@ the last term is reformulated as
 
 .. math::
 
+   &
    \sum_{ij}
    V^j
    U^i
@@ -70,6 +71,26 @@ the last term is reformulated as
    \sum_{ij}
    V^i
    U^j
+   \frac{1}{H_i}
+   \pder{H_i}{X^j}
+   \vec{E}_i
+   -
+   \sum_{ij}
+   V^j
+   U^j
+   \frac{H_j}{H_i H_i}
+   \pder{H_j}{X^i}
+   \vec{E}_i \\
+   =
+   &
+   \sum_{ij}
+   \left(
+      V^j
+      U^i
+      +
+      V^i
+      U^j
+   \right)
    \frac{1}{H_i}
    \pder{H_i}{X^j}
    \vec{E}_i
@@ -127,31 +148,13 @@ Explicitly, the material derivative is given by the sum of
 .. math::
 
    \newcommand{\tmp}[2]{
-      V^{#2}
-      U^{#1}
-      \frac{1}{H_{#1}}
-      \pder{H_{#1}}{X^{#2}}
-   }
-   \begin{pmatrix}
-      \vec{E}_1
-      &
-      \vec{E}_2
-      &
-      \vec{E}_3
-   \end{pmatrix}
-   \begin{pmatrix}
-      \tmp{1}{1} + \tmp{1}{2} + \tmp{1}{3}
-      \\
-      \tmp{2}{1} + \tmp{2}{2} + \tmp{2}{3}
-      \\
-      \tmp{3}{1} + \tmp{3}{2} + \tmp{3}{3}
-   \end{pmatrix},
-
-.. math::
-
-   \newcommand{\tmp}[2]{
-      V^{#1}
-      U^{#2}
+      \left(
+         V^{#2}
+         U^{#1}
+         +
+         V^{#1}
+         U^{#2}
+      \right)
       \frac{1}{H_{#1}}
       \pder{H_{#1}}{X^{#2}}
    }
