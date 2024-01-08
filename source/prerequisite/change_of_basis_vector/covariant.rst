@@ -231,8 +231,20 @@ Rectilinear coordinates
 .. math::
 
    \begin{pmatrix}
-      \frac{1}{H_1} \pder{H_1}{X^1} \vec{E}_1 & 0 & 0 \\
-      0 & \frac{1}{H_2} \pder{H_2}{X^2} \vec{E}_2 & 0 \\
-      0 & 0 & \frac{1}{H_3} \pder{H_3}{X^3} \vec{E}_3 \\
+      - \frac{1}{H_1} \pder{H_1}{X^1} \vec{E}_1 & 0 & 0 \\
+      0 & - \frac{1}{H_2} \pder{H_2}{X^2} \vec{E}_2 & 0 \\
+      0 & 0 & - \frac{1}{H_3} \pder{H_3}{X^3} \vec{E}_3 \\
+   \end{pmatrix}.
+
+===========
+Application
+===========
+
+.. math::
+
+   \begin{pmatrix}
+      - \frac{1}{H_1} \pder{H_1}{X^1} \vec{E}_1 & \frac{1}{H_2} \pder{H_2}{X^1} \vec{E}_2 & 0 \\
+      \frac{1}{H_2} \pder{H_2}{X^1} \vec{E}_2 & - \frac{H_2}{H_1 H_1} \pder{H_2}{X^1} \vec{E}_1 & 0 \\
+      0 & 0 & 0 \\
    \end{pmatrix}.
 

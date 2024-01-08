@@ -122,7 +122,7 @@ In summary,
    &
    =
    \sum_i
-   \frac{1}{H_i}
    \vec{\hat{E}}_i
+   \frac{1}{H_i}
    \pder{}{X^i}.
 
