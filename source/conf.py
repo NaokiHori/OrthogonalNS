@@ -1,7 +1,13 @@
 import os
 import sys
 
-sys.path.append(os.path.abspath("./conf_params"))
+paths = ("./ext", "./conf_params")
+for path in paths:
+    sys.path.append(os.path.abspath(path))
+
+extensions = [
+        "mydetails",
+        ]
 
 project = "Orthogonal NS"
 author = "Naoki Hori"

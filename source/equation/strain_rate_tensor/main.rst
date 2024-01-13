@@ -8,6 +8,6 @@ Strain-rate tensor
 .. toctree::
    :maxdepth: 1
 
-   covariant
+   covariant/main
    normal
 
