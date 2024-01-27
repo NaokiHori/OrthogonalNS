@@ -302,3 +302,56 @@ The sum of
       V^3 U^3 \frac{1}{H_3} \pder{H_3}{X^3}
    \right).
 
+===========
+Application
+===========
+
+The sum of
+
+.. math::
+
+   \vec{E}_1
+   \left(
+      \pder{U^1}{t}
+      +
+      V^1 \pder{U^1}{X^1}
+      +
+      V^2 \pder{U^1}{X^2}
+      +
+      V^3 \pder{U^1}{X^3}
+      +
+      V^1 U^1 \frac{1}{H_1} \pder{H_1}{X^1}
+      -
+      V^2 U^2 \frac{H_2}{H_1 H_1} \pder{H_2}{X^1}
+   \right),
+
+.. math::
+
+   \vec{E}_2
+   \left(
+      \pder{U^2}{t}
+      +
+      V^1 \pder{U^2}{X^1}
+      +
+      V^2 \pder{U^2}{X^2}
+      +
+      V^3 \pder{U^2}{X^3}
+      +
+      V^1 U^2 \frac{1}{H_2} \pder{H_2}{X^1}
+      +
+      V^2 U^1 \frac{1}{H_2} \pder{H_2}{X^1}
+   \right),
+
+.. math::
+
+   \vec{E}_3
+   \left(
+      \pder{U^3}{t}
+      +
+      V^1 \pder{U^3}{X^1}
+      +
+      V^2 \pder{U^3}{X^2}
+      +
+      V^3 \pder{U^3}{X^3}
+   \right).
+

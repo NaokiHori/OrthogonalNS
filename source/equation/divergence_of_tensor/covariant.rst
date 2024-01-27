@@ -409,3 +409,103 @@ The sum of
       S^{33}
    \right).
 
+===========
+Application
+===========
+
+The sum of
+
+.. math::
+
+   \vec{E}_1
+   \left(
+      \frac{1}{J}
+      \pder{}{X^1}
+      \left(
+         J
+         S^{11}
+      \right)
+      +
+      \frac{1}{J}
+      \pder{}{X^2}
+      \left(
+         J
+         S^{12}
+      \right)
+      +
+      \frac{1}{J}
+      \pder{}{X^3}
+      \left(
+         J
+         S^{13}
+      \right)
+      +
+      \frac{1}{H_1}
+      \pder{H_1}{X^1}
+      S^{11}
+      -
+      \frac{H_2}{H_1 H_1}
+      \pder{H_2}{X^1}
+      S^{22}
+   \right),
+
+.. math::
+
+   \vec{E}_2
+   \left(
+      \frac{1}{J}
+      \pder{}{X^1}
+      \left(
+         J
+         S^{21}
+      \right)
+      +
+      \frac{1}{J}
+      \pder{}{X^2}
+      \left(
+         J
+         S^{22}
+      \right)
+      +
+      \frac{1}{J}
+      \pder{}{X^3}
+      \left(
+         J
+         S^{23}
+      \right)
+      +
+      \frac{1}{H_2}
+      \pder{H_2}{X^1}
+      S^{21}
+      +
+      \frac{1}{H_2}
+      \pder{H_2}{X^1}
+      S^{12}
+   \right),
+
+.. math::
+
+   \vec{E}_3
+   \left(
+      \frac{1}{J}
+      \pder{}{X^1}
+      \left(
+         J
+         S^{31}
+      \right)
+      +
+      \frac{1}{J}
+      \pder{}{X^2}
+      \left(
+         J
+         S^{32}
+      \right)
+      +
+      \frac{1}{J}
+      \pder{}{X^3}
+      \left(
+         J
+         S^{33}
+      \right)
+   \right).
+
