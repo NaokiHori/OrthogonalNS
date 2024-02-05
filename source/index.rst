@@ -32,4 +32,5 @@ The purpose of this document is to present the essential and comprehensive eleme
    equation/material_derivative/main
    equation/strain_rate_tensor/main
    equation/divergence_of_tensor/main
+   equation/energy_diffusion_and_dissipation/main
 
