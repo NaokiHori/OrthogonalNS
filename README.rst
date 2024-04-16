@@ -2,7 +2,7 @@
 Orthogonal NS
 #############
 
-|License|_ |LastCommit|_ |Build|_
+|License| |LastCommit| |Build|
 
 .. |License| image:: https://img.shields.io/github/license/NaokiHori/OrthogonalNS
 .. _License: https://opensource.org/license/MIT

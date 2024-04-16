@@ -2,10 +2,6 @@
 Orthogonal NS
 #############
 
-.. note::
-
-   UNDER ACTIVE DEVELOPMENT
-
 The purpose of this document is to present the essential and comprehensive elements required to derive the governing equations for the motion of incompressible Newtonian fluids within general orthogonal coordinate systems.
 
 #. Lower- and upper-case letters are used to represent that the quantities are described on the Cartesian and the general orthogonal coordinate systems, respectively.
