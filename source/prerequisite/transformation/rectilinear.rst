@@ -122,7 +122,7 @@ or
    \pder{X^3}{x^3}
    \vec{E}_3
    =
-   \frac{3}{H_3}
+   \frac{1}{H_3}
    \vec{E}_3.
 
 Although already introduced, the scale factors are
